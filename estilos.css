@@ -1,0 +1,40 @@
+.done{
+    text-decoration: line-through;
+    opacity: 0.5;
+}
+
+#todos {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+#todos li{
+    padding: 20px 0px 20px 0px;
+    border-bottom: 1px solid  #ccc;
+} 
+
+    
+.deleteItem{
+    float: right;
+    cursor: pointer;
+}
+
+.completeItem{
+    margin-right: 15px;
+}
+
+#addItem{
+    float: center;
+    margin-top: 20px;
+}
+
+
+
+.header{
+    background: rgb(3, 15, 121);
+    color: white;
+    padding: 2rem 0;
+    margin-bottom: 50px;
+}
